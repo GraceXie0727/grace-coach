@@ -30,19 +30,33 @@
 
 ## 安装
 
-前提：你在用 [Claude Code](https://claude.com/claude-code) 或其他支持 Agent Skills 的工具。
+前提：你在用 [Claude Code](https://claude.com/claude-code) 或其他支持 [Agent Skills](https://github.com/vercel-labs/skills) 的工具。方式一另需装 [Node.js](https://nodejs.org)。
 
-**方法一（最省事）**：直接把下面这句话发给 Claude Code：
+### 方式一：一行命令（推荐）
 
-> 帮我安装这个 skill：https://github.com/GraceXie0727/grace-coach ，把里面的 grace-coach 文件夹放到我的 skills 目录下。
+```
+npx skills add https://github.com/GraceXie0727/grace-coach --skill grace-coach
+```
 
-**方法二（手动）**：
+按提示选「global」和「symlink」，装完重启 Claude Code 即可。
 
-1. 点本页右上角绿色的「Code」按钮 →「Download ZIP」，解压
-2. 把解压出来的 `grace-coach` 文件夹（里面有 SKILL.md 的那个）复制到：
-   - Windows：`C:\Users\你的用户名\.claude\skills\grace-coach\`
-   - Mac：`~/.claude/skills/grace-coach/`
-3. 重启 Claude Code
+### 方式二：把下面这段话发给 AI
+
+复制粘贴给 Claude Code / Cursor / 任何有 shell 权限的 AI Agent，它会自动装好：
+
+> 帮我安装 `grace-coach` 这个 Claude Code skill。请按下面步骤做：
+> 1. 确保 `~/.claude/skills/` 目录存在（不存在就创建）
+> 2. 执行 `git clone https://github.com/GraceXie0727/grace-coach.git ~/.claude/skills/grace-coach`
+> 3. 验证：`ls ~/.claude/skills/grace-coach/` 应该看到 `SKILL.md`、`modes/` 两项
+> 4. 告诉我装好了，之后我说「带我读《某本书》」就会触发这个 skill
+
+### 方式三：手动命令行
+
+```
+git clone https://github.com/GraceXie0727/grace-coach.git ~/.claude/skills/grace-coach
+```
+
+装完重启 Claude Code。
 
 ## 开始使用
 
@@ -70,11 +84,9 @@ AI学习教练/
 
 ## 授权
 
-本项目采用 [CC BY-NC 4.0](LICENSE) 授权（与上游 dbs-learning 保持一致）。人话版：
+[CC BY-NC 4.0](LICENSE) © 2026 Grace
 
-- ✅ 可以：免费使用、修改、分享给任何人
-- ⚠️ 必须：保留署名和来源说明
-- ❌ 不可以：商业用途（比如放进付费产品或课程出售）。有商业需求请先联系上游原作者 dontbesilent 与本项目作者取得授权
+可自由使用、修改、分享，需保留署名；**禁止商业用途**——商用（如放进付费产品或课程出售）请先联系上游作者 [dontbesilent](https://github.com/dontbesilent2025) 授权。
 
 ---
 

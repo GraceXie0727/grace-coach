@@ -2,6 +2,17 @@
 
 帮你系统地读书、学人、搞懂行业和概念，把学到的东西沉淀成你自己的本地知识库（Markdown 文件，Obsidian 可直接打开看双链图谱）。
 
+<table>
+<tr>
+<td width="50%"><img src="assets/示例-连载文章.png"/><br/><sub>连载学习文章：一次讲一小块，末尾是学习反馈区</sub></td>
+<td width="50%"><img src="assets/示例-学习反馈.png"/><br/><sub>读完随便写，不用管格式，自动整理入库</sub></td>
+</tr>
+<tr>
+<td width="50%"><img src="assets/示例-复习笔记概念进度.png"/><br/><sub>每课题自动维护复习笔记，概念掌握进度一目了然</sub></td>
+<td width="50%"><img src="assets/示例-复习笔记详情.png"/><br/><sub>笔记、判断、困惑按篇追加，复习从头看一遍就行</sub></td>
+</tr>
+</table>
+
 ## 核心功能
 
 - **四种学习模式**：读书、学一个人的思想、多人综合对比、行业/概念（联网搜最新信息）

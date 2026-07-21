@@ -111,4 +111,4 @@ AI学习教练/
 
 ---
 
-作者：Grace（[X @Gracexie0727](https://x.com/Gracexie0727)）一个不会编程的文科生创业者。有问题欢迎提 [Issue](../../issues)。
+作者：Grace（[X @Gracexie0727](https://x.com/Gracexie0727)），一个不会编程的文科生创业者。有问题欢迎提 [Issue](../../issues)~

@@ -4,12 +4,16 @@
 
 <table>
 <tr>
-<td width="50%"><img src="assets/示例-连载文章.png"/><br/><sub>连载学习文章：一次讲一小块，末尾是学习反馈区</sub></td>
-<td width="50%"><img src="assets/示例-学习反馈.png"/><br/><sub>读完随便写，不用管格式，自动整理入库</sub></td>
+<td width="50%"><img src="assets/示例-目录结构.png"/><br/><sub>课题按篇连载，目录一目了然</sub></td>
+<td width="50%"><img src="assets/示例-学习反馈.png"/><br/><sub>每篇末尾学习反馈区，读完随便写、不用管格式</sub></td>
 </tr>
 <tr>
-<td width="50%"><img src="assets/示例-复习笔记概念进度.png"/><br/><sub>每课题自动维护复习笔记，概念掌握进度一目了然</sub></td>
-<td width="50%"><img src="assets/示例-复习笔记详情.png"/><br/><sub>笔记、判断、困惑按篇追加，复习从头看一遍就行</sub></td>
+<td width="50%"><img src="assets/示例-认知点评.png"/><br/><sub>认知点评：下一篇开头校准你的理解、回应你的问题</sub></td>
+<td width="50%"><img src="assets/示例-知识卡片.png"/><br/><sub>反馈自动整理成知识卡片，原话入库、标好来源</sub></td>
+</tr>
+<tr>
+<td width="50%"><img src="assets/示例-概念进度.png"/><br/><sub>核心概念掌握进度一目了然：🌱 刚讲 → 🌿 有困惑 → 🌳 已吃透</sub></td>
+<td width="50%"><img src="assets/示例-复习笔记.png"/><br/><sub>复习笔记按篇追加，笔记和困惑都留痕，回应过的会标注</sub></td>
 </tr>
 </table>
 

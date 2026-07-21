@@ -1,4 +1,4 @@
-# grace-coach：个人知识积累教练
+# grace-coach：AI私教老师
 
 帮你系统地读书、学人、搞懂行业和概念，把学到的东西沉淀成你自己的本地知识库（Markdown 文件，Obsidian 可直接打开看双链图谱）。
 
